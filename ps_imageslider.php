@@ -877,12 +877,12 @@ class Ps_ImageSlider extends Module implements WidgetInterface
                             array(
                                 'id' => 'active_on',
                                 'value' => 1,
-                                'label' => $this->getTranslator()->trans('Enabled', array(), 'Admin.Global')
+                                'label' => $this->getTranslator()->trans('Yes', array(), 'Admin.Global')
                             ),
                             array(
                                 'id' => 'active_off',
                                 'value' => 0,
-                                'label' => $this->getTranslator()->trans('Disabled', array(), 'Admin.Global')
+                                'label' => $this->getTranslator()->trans('No', array(), 'Admin.Global')
                             )
                         ),
                     ),
@@ -895,12 +895,12 @@ class Ps_ImageSlider extends Module implements WidgetInterface
                             array(
                                 'id' => 'active_on',
                                 'value' => 1,
-                                'label' => $this->getTranslator()->trans('Enabled', array(), 'Admin.Global')
+                                'label' => $this->getTranslator()->trans('Yes', array(), 'Admin.Global')
                             ),
                             array(
                                 'id' => 'active_off',
                                 'value' => 0,
-                                'label' => $this->getTranslator()->trans('Disabled', array(), 'Admin.Global')
+                                'label' => $this->getTranslator()->trans('No', array(), 'Admin.Global')
                             )
                         ),
                     ),
