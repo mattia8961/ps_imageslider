@@ -63,7 +63,7 @@ class Ps_ImageSlider extends Module implements WidgetInterface
         parent::__construct();
 
         $this->displayName = $this->getTranslator()->trans('Image slider', array(), 'Modules.Imageslider.Admin');
-        $this->description = $this->getTranslator()->trans('Adds an image slider to your site.', array(), 'Modules.Imageslider.Admin');
+        $this->description = $this->getTranslator()->trans('Add sliding images to your homepage to welcome your visitors in a visual and friendly way.', array(), 'Modules.Imageslider.Admin');
         $this->ps_versions_compliancy = array('min' => '1.7.4.0', 'max' => _PS_VERSION_);
 
         $this->templateFile = 'module:ps_imageslider/views/templates/hook/slider.tpl';
